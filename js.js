@@ -21,7 +21,7 @@ $(function() {
     			var id = $(this).attr('data-target');
 	    		result[id] = { 
 	    						font_family: 		$('#' + id + '_family').val(), 
-	    						font_weight: 		$('#' + id + '_weihgt').val(),
+	    						font_weight: 		$('#' + id + '_weight').val(),
 	    						font_size: 			$('#' + id + '_size').val(),
 	    						line_height: 		$('#' + id + '_height').val(),
 	    						text_decoration: 	$('#' + id + '_decoration').val(),
